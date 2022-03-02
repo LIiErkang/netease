@@ -1,0 +1,18 @@
+.header-search {
+	height: 100%;
+}
+
+.header-menu {
+	height: 100%;
+
+	position: relative;
+	top: 1px;
+}
+
+.ant-menu,
+.ant-menu-item {
+	height: 100%;
+	align-items: center;
+
+	padding-top: 12px;
+}

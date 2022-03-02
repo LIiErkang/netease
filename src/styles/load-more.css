@@ -1,0 +1,10 @@
+.load_more {
+	cursor: pointer;
+	margin-top: 12px;
+	padding: 12px 0;
+	font-size: 16px;
+}
+
+.load_more:hover {
+	text-decoration: underline;
+}

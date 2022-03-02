@@ -1,0 +1,101 @@
+.control-bar {
+	position: relative;
+
+	height: 100%;
+
+	padding: 0 128px;
+
+	height: 64px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+}
+
+.song-info {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+
+.song-info-left {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 4fr 1fr;
+	gap: 8px;
+}
+
+.song-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.lyric,
+.singer,
+.song-title,
+.song-text,
+.current-lyric {
+	width: 100%;
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.song-title {
+	color: #303133;
+	font-weight: bold;
+}
+
+.singer {
+	font-size: 14px;
+}
+
+.lyric {
+	justify-content: start;
+
+	color: #606266;
+
+	cursor: pointer;
+}
+
+.control-bar-icon {
+	cursor: pointer;
+	font-size: 32px;
+
+	margin: 0 8px;
+}
+
+.control-bar-icon.small {
+	font-size: 16px;
+}
+
+.control-bar-icon.big {
+	font-size: 36px;
+}
+
+.timer {
+	position: absolute;
+	top: -18px;
+	left: 0;
+	right: 0;
+
+	display: grid;
+	grid-template-columns: 48px 1fr 48px;
+	align-items: center;
+
+	height: 2px;
+	width: 100%;
+}
+
+.timer-number {
+	font-weight: bold;
+	text-align: center;
+}
+
+.control-bar-others {
+	justify-content: flex-end;
+}
+
+.volume-control {
+	width: 25%;
+}

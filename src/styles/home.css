@@ -1,0 +1,9 @@
+.home-playlist {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 24px;
+}
+
+.playlist-item {
+	cursor: pointer;
+}
